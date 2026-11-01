@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://janasomnath364-blip.github.io/sitemap.xml
+Sitemap: https://somnathjanamath.github.io/sitemap.xml

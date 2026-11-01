@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-palette="ivory">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,12 +8,12 @@
   <meta name="description" content="Somnath Jana, Senior Research Fellow in mathematics at the Indian Statistical Institute, Bangalore. Research in operator algebras, quantum information theory and matrix analysis.">
   <meta name="author" content="Somnath Jana">
   <meta name="keywords" content="Somnath Jana, mathematics, operator algebras, quantum information theory, matrix analysis, Indian Statistical Institute, ISI Bangalore">
-  <link rel="canonical" href="https://janasomnath364-blip.github.io/">
+  <link rel="canonical" href="https://somnathjanamath.github.io/">
 
   <meta property="og:type" content="profile">
   <meta property="og:title" content="Somnath Jana | Mathematics, ISI Bangalore">
   <meta property="og:description" content="Operator algebras, quantum information theory and matrix analysis.">
-  <meta property="og:url" content="https://janasomnath364-blip.github.io/">
+  <meta property="og:url" content="https://somnathjanamath.github.io/">
 
   <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
 
@@ -32,12 +32,12 @@
   }
   </script>
 
-  <!-- Remember the visitor's light/dark choice (dark is the default) -->
+  <!-- Remember the visitor's light/dark choice (light ivory is the default) -->
   <script>
     (function () {
       try {
-        var t = localStorage.getItem("theme");
-        if (t === "light" || t === "dark") document.documentElement.setAttribute("data-theme", t);
+        var p = localStorage.getItem("palette");
+        if (p === "ivory" || p === "navy") document.documentElement.setAttribute("data-palette", p);
       } catch (e) {}
     })();
   </script>
@@ -60,6 +60,7 @@
   <!-- ==================== MENU ==================== -->
   <header class="nav-wrap">
     <nav class="pill-nav" aria-label="Main">
+      <a href="#home"><span aria-hidden="true">🏠</span> Home</a>
       <a href="#about"><span aria-hidden="true">👤</span> About</a>
       <a href="#research"><span aria-hidden="true">⚛️</span> Research</a>
       <a href="#publications"><span aria-hidden="true">📝</span> Publications</a>
@@ -240,15 +241,22 @@
     <!-- ==================== 6. CV ==================== -->
     <section id="cv" class="panel" aria-labelledby="cv-title">
       <h2 id="cv-title"><span class="h-icon" aria-hidden="true">📄</span> Curriculum vitae</h2>
-      <p>My full academic CV, including education, publications, talks and teaching. Last updated November 2026.</p>
-      <p class="hero-actions left">
-        <a class="btn btn-primary" href="assets/cv/cv.pdf" target="_blank" rel="noopener">View CV</a>
-        <a class="btn" href="assets/cv/cv.pdf" download="Somnath-Jana-CV.pdf">Download PDF</a>
+      <p>My full academic CV. Last updated November 2026.</p>
+      <!-- The two pictures below show the pages of assets/cv/cv.pdf.
+           When you change your CV, also replace cv-page-1.png and cv-page-2.png. -->
+      <div class="cv-pages">
+        <img src="assets/cv/cv-page-1.png" alt="Curriculum vitae of Somnath Jana, page 1" loading="lazy">
+        <img src="assets/cv/cv-page-2.png" alt="Curriculum vitae of Somnath Jana, page 2" loading="lazy">
+      </div>
+      <p class="hero-actions">
+        <a class="btn btn-primary" href="assets/cv/cv.pdf" target="_blank" rel="noopener">Open CV (PDF)</a>
+        <a class="btn" href="assets/cv/cv.pdf" download="Somnath-Jana-CV.pdf">Download CV</a>
       </p>
+      <p class="cv-note">Links in the CV (emails, websites, course pages) are clickable in the PDF version.</p>
     </section>
 
     <!-- ==================== 7. CONTACT ==================== -->
-   <section id="contact" class="panel" aria-labelledby="contact-title">
+    <section id="contact" class="panel" aria-labelledby="contact-title">
       <h2 id="contact-title"><span class="h-icon" aria-hidden="true">📬</span> Contact</h2>
       <ul class="cards">
         <li class="card row">

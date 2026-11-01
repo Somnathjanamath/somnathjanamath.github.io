@@ -26,6 +26,11 @@ Double-click `index.html` to preview it in your browser.
 
 ## Publishing
 
-Repository name: `janasomnath364-blip.github.io` (public). Upload everything inside this folder,
+Repository name: `somnathjanamath.github.io` (public). Upload everything inside this folder,
 then Settings → Pages → Deploy from a branch → main → / (root) → Save.
-The site appears at https://janasomnath364-blip.github.io/
+The site appears at https://somnathjanamath.github.io/
+
+## Updating the CV
+
+The CV section shows pictures of the CV pages. When you change your CV, replace three files in `assets/cv/`:
+`cv.pdf`, `cv-page-1.png` and `cv-page-2.png` (pictures of page 1 and page 2), or send the new PDF to Claude to make them.
